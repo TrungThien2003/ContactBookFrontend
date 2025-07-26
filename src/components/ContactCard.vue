@@ -16,7 +16,7 @@ export default {
             {{ contact.email }}
         </div>
         <div class="p-1">
-            <strong>Địa chú:</strong>
+            <strong>Địa chi:</strong>
             {{ contact.address }}
         </div>
         <div class="p-1">
