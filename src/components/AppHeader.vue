@@ -1,0 +1,12 @@
+<template>
+    <nav class="navbar navbar-expand navbar-dark bg-dark">
+        <a href="/" class="navbar-brand">Ứng dụng ǫuản lý danh bạ</a>
+        <div class="mr-auto navbar-nav">
+            <li class="nav-item">
+                <router-link :to="{ name: 'contactbook' }" class="nav-link"> Danh bạ
+                    <i class="īas īa-address-book"></i>
+                </router-link>
+            </li>
+        </div>
+    </nav>
+</template>
